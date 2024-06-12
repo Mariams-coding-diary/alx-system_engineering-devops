@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -amnpX --group-directories-first
+ls -Xamp --group-directories-first
