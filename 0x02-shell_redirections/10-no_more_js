@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -R --sort=.js . | find -type f -delete
+grep -r --file=.js . | find -type f -delete
