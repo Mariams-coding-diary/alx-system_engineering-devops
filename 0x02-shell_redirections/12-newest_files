@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f | head | sort -n
+ls -t | grep -v directory | head
