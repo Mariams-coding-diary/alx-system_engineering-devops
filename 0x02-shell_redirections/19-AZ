@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c A c --complement z e
+tr -s A,c Z,e
